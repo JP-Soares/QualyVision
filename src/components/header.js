@@ -1,13 +1,12 @@
 import React from 'react'
-import Logo from './img/logoNova/logoSemNome.png'
+import Logo from './img/logoNova/logoSemNomeBG.png'
+import {AreaHeader} from './styles/styledheader.js'
 
 export default function header(){
     return(
-        <header>
-            <nav>
-                <img src={Logo} />
-                <p>Qualy Vision</p>
-            </nav>
-        </header>
+        <AreaHeader>
+            <img src={Logo} id="logo" />
+            <p id="title">Qualy Vision</p>
+        </AreaHeader>
     );
 }
