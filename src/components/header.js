@@ -5,8 +5,10 @@ import {AreaHeader} from './styles/styledheader.js'
 export default function header(){
     return(
         <AreaHeader>
-            <img src={Logo} id="logo" />
-            <p id="title">Qualy Vision</p>
+            <nav>
+                <img src={Logo} id="logo" />
+                <p id="title">Qualy Vision</p>
+            </nav>
         </AreaHeader>
     );
 }

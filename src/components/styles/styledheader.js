@@ -8,7 +8,7 @@ export const AreaHeader = styled.div`
         height: 150px;
         display: inline-block;
         vertical-align: top;
-        padding-left: 50px; 
+        margin-left: 50px; 
     }
 
     #title{
@@ -17,6 +17,6 @@ export const AreaHeader = styled.div`
         font-family: 'Source Code Pro', monospace;
 
         display: inline-block;
-        padding-left: 950px;
+        margin-left: 950px;
     }
 `;

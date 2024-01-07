@@ -1,14 +1,16 @@
 import React from 'react'
+import {Container} from './styles/styledcontainer.js'
+import { Containercontenttitle } from './styles/styledcontainer.js';
 
 export default function quemSomos(){
     return(
-        <div>
-            <div>
+        <Container>
+            <Containercontenttitle>
                 <p>Quem Somos?</p>
-            </div>
+            </Containercontenttitle>
             <div>
                 <p>Texto</p>
             </div>
-        </div>
+        </Container>
     );
 }
